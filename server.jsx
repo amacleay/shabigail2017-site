@@ -18,8 +18,9 @@ function renderFullPage(html, initialState) {
     <html>
       <head>
         <meta charset="utf-8" />
-        <title>Redux Universal Example</title>
+        <title>Abby and Andrew</title>
         <link type="text/css" rel="stylesheet" href="dist/main.css" />
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       </head>
       <body>
         <div id="root-app">${html}</div>

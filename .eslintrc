@@ -11,6 +11,7 @@
   },
   settings: {
     import/extensions: ['.js', '.jsx'],
+    import/resolver: 'webpack'
   },
   "rules" : {
     "comma-dangle" : 0,
