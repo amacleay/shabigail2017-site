@@ -5,10 +5,10 @@ import MainNavLink from 'components/MainNavLink';
 const AppShell = ({ children }) => (
   <div className="container-fluid">
     <div className="row">
-      <MainNavLink sectionName="Home" />
-      <MainNavLink sectionName="Wedding" />
-      <MainNavLink sectionName="Travel" />
-      <MainNavLink sectionName="RSVP" />
+      <MainNavLink to="/" sectionName="Home" />
+      <MainNavLink to="/wedding" sectionName="Wedding" />
+      <MainNavLink to="/travel" sectionName="Travel" />
+      <MainNavLink to="/rsvp" sectionName="RSVP" />
     </div>
     { children }
   </div>

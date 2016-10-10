@@ -3,6 +3,9 @@ import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { Route, Router, IndexRoute } from 'react-router';
 import AppShell from './containers/AppShell.jsx';
+import WeddingSection from 'containers/WeddingSection';
+import TravelSection from 'containers/TravelSection';
+import RsvpSection from 'containers/RsvpSection';
 
 // Polyfill for server side rendering of application
 if (typeof require.ensure !== 'function') {
@@ -25,6 +28,8 @@ export default (
         cb(null, require('./containers/Home.jsx'));
       });
     }}/>
-    // Other Pages.
+    <Route path="/wedding" component={WeddingSection} />
+    <Route path="/travel" component={TravelSection} />
+    <Route path="/rsvp" component={RsvpSection} />
   </Route>
 );
