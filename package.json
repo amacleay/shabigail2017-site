@@ -12,7 +12,8 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_PATH=$NODE_PATH:./src node --harmony .",
-    "dev": "npm run start & webpack-dev-server --inline --hot --progress --color --config ./webpack.config.js",
+    "debug": "NODE_PATH=$NODE_PATH:./src node --inspect --harmony .",
+    "dev": "npm run debug & webpack-dev-server --inline --hot --progress --color --config ./webpack.config.js",
     "build": ". ./scripts/build.sh",
     "test": "mocha --compilers js:babel-register ./test/.jsdom.js ./test/** --recursive",
     "test:watch": "mocha --compilers js:babel-core/register ./test/.jsdom.js ./test/** --recursive --watch --watch-extensions=jsx",
