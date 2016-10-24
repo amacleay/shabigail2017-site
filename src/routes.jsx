@@ -4,6 +4,10 @@ import React from 'react';
 import { Route, Router, IndexRoute } from 'react-router';
 import AppShell from './containers/AppShell.jsx';
 import WeddingSection from 'containers/WeddingSection';
+import LocationSection from 'containers/LocationSection';
+import ScheduleSection from 'containers/ScheduleSection';
+import ActivitySection from 'containers/ActivitySection';
+import AboutUsSection from 'containers/AboutUsSection';
 import TravelSection from 'containers/TravelSection';
 import RsvpSection from 'containers/RsvpSection';
 
@@ -29,6 +33,10 @@ export default (
       });
     }}/>
     <Route path="/wedding" component={WeddingSection} />
+    <Route path="/location" component={LocationSection} />
+    <Route path="/schedule" component={ScheduleSection} />
+    <Route path="/activities" component={ActivitySection} />
+    <Route path="/us" component={AboutUsSection} />
     <Route path="/travel" component={TravelSection} />
     <Route path="/rsvp" component={RsvpSection} />
   </Route>

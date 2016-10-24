@@ -12,8 +12,8 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_PATH=$NODE_PATH:./src node --harmony .",
-    "debug": "NODE_PATH=$NODE_PATH:./src node --inspect --harmony .",
-    "dev": "npm run debug & webpack-dev-server --inline --hot --progress --color --config ./webpack.config.js",
+    "debug": "NODE_PATH=$NODE_PATH:./src nodemon -w src/ -w server.jsx --inspect --harmony .",
+    "dev": "webpack-dev-server --inline --hot --progress --color --config ./webpack.config.js & npm run debug",
     "build": ". ./scripts/build.sh",
     "test": "mocha --compilers js:babel-register ./test/.jsdom.js ./test/** --recursive",
     "test:watch": "mocha --compilers js:babel-core/register ./test/.jsdom.js ./test/** --recursive --watch --watch-extensions=jsx",
@@ -58,6 +58,7 @@
     "mocha": "^2.5.3",
     "nock": "^8.0.0",
     "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0",
     "normalize.css": "^4.2.0",
     "npm": "^3.10.9",
     "react-addons-test-utils": "^15.2.1",
