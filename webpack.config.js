@@ -6,6 +6,7 @@ const buildPath = path.resolve('./dist');
 
 module.exports = {
   entry: [
+    'bootstrap-loader',
     'webpack-dev-server/client?http://127.0.0.1:8080/',
     'webpack/hot/only-dev-server',
     mainPath,
@@ -35,6 +36,8 @@ module.exports = {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader'),
       },
+      { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
+      { test: /\.(ttf|eot)$/, loader: 'file' },
     ]
   },
   sassLoader: {

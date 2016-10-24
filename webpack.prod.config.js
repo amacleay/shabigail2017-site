@@ -5,7 +5,10 @@ const mainPath = path.resolve('./src');
 const buildPath = path.resolve('./dist');
 
 module.exports = {
-  entry: [mainPath],
+  entry: [
+    'bootstrap-loader',
+    mainPath,
+  ],
   output: {
     filename: 'bundle.js',
     path: buildPath,
@@ -31,6 +34,8 @@ module.exports = {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader'),
       },
+      { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
+      { test: /\.(ttf|eot)$/, loader: 'file' },
     ]
   },
   sassLoader: {

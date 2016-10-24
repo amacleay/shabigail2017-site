@@ -3,7 +3,8 @@ import { Link } from 'react-router';
 
 export default React.createClass({
   propTypes: {
-    to: React.PropTypes.string
+    to: React.PropTypes.string,
+    children: React.PropTypes.node,
   },
 
   render() {

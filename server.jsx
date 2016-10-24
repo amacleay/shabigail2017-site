@@ -20,10 +20,8 @@ function renderFullPage(html, initialState) {
         <meta charset="utf-8" />
         <title>Abby and Andrew</title>
         <link type="text/css" rel="stylesheet" href="dist/main.css" />
-	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       </head>
       <body>
         <div id="root-app">${html}</div>
