@@ -21,3 +21,13 @@ Created via
 npm install yo generator-universal-react-and-redux
 node_modules/.bin/yo universal-react-and-redux
 ```
+
+## Errata
+
+I want to use [bootstrap-loader](https://github.com/shakacode/bootstrap-loader) with `extractStyles` enabled, but there appears to be a version mismatch between the bootstrap-loader that is installed and the [extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin) installed.  I can make the thing work by manually modifying `node_modules/bootstrap-loader/lib/utils/buildExtractStylesLoader.js`:
+```
+// replace the final statement:
+return ExtractTextPlugin.extract({ fallbackLoader: fallbackLoader, loader: restLoaders });
+// with
+return ExtractTextPlugin.extract(fallbackLoader, restLoaders );
+```

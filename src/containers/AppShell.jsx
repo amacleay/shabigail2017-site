@@ -20,18 +20,24 @@ const AppShell = ({ children }) => (
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wedding <span className="caret"></span></a>
+                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><MainNavLink to="/wedding">Overview</MainNavLink></li>
+                  <li><MainNavLink to="/wedding">Our Wedding</MainNavLink></li>
+                  <li><MainNavLink to="/location">Location</MainNavLink></li>
+                  <li><MainNavLink to="/schedule">Schedule</MainNavLink></li>
+                  <li><MainNavLink to="/activities">Activities</MainNavLink></li>
                 </ul>
               </li>
+              <li><MainNavLink to="/us">About us</MainNavLink></li>
               <li><MainNavLink to="/travel">Travel</MainNavLink></li>
               <li><MainNavLink to="/rsvp">RSVP</MainNavLink></li>
             </ul>
           </div>
           </div>
         </nav>
-        { children }
+        <div className="container">
+          { children }
+        </div>
       </div>
 );
 

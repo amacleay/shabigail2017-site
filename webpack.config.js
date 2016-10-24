@@ -18,8 +18,8 @@ module.exports = {
     chunkFilename: '[name]-[chunkhash].js',
   },
   resolve: {
-    modulesDirectories: ['node_modules', 'src'],
-    extensions: ['', '.js', '.jsx']
+    modules: [path.resolve('./src'), 'node_modules'],
+    extensions: ['.js', '.jsx']
   },
   module: {
     loaders: [
@@ -30,20 +30,26 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader'),
+        loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader' }),
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader'),
+        loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader!sass-loader' }),
       },
       { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
       { test: /\.(ttf|eot)$/, loader: 'file' },
+      {
+        test: /.*\.(gif|png|jpe?g|svg)$/i,
+        loader: 'url',
+      },
     ]
   },
-  sassLoader: {
-    includePaths: [path.resolve(__dirname, './scss')],
-  },
   plugins: [
+    new webpack.LoaderOptionsPlugin({
+      sassLoader: {
+        includePaths: [path.resolve(__dirname, './scss')],
+      },
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new ExtractTextPlugin('[name].css'),
