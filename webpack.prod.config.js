@@ -36,6 +36,10 @@ module.exports = {
       },
       { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
       { test: /\.(ttf|eot)$/, loader: 'file' },
+      {
+        test: /.*\.(gif|png|jpe?g|svg)$/i,
+        loader: 'url',
+      },
     ]
   },
   sassLoader: {

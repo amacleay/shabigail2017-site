@@ -6,6 +6,7 @@ export default React.createClass({
       <div className="section">
         <h1>About Us</h1>
         <p className="text-info">Coming soon!</p>
+        <div className="abby-in-cow-suit" />
       </div>
     );
   },
