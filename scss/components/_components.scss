@@ -1,6 +1,17 @@
 .jumbotron {
   text-align: center;
 }
-.abby-in-cow-suit {
-  content: url('../images/abi-cow.jpg');
+
+.schedule-event-list {
+  display: table;
+
+  .schedule-event-item {
+    display: table-row;
+    .schedule-event-time, .schedule-event-name {
+      display: table-cell;
+    }
+    .schedule-event-time {
+      padding: 0 1em 0 0;
+    }
+  }
 }
