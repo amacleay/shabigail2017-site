@@ -51,7 +51,7 @@ export default React.createClass({
                 Temperature should not be an issue due to the season, but you should be prepared for the evenings to get a little chilly, even in the cabins.
               </p>
               <p>
-                If any of this presents a problem, please let us know so we can make alternate arrangements.  <i>We will ensure everyone's comfort</i>.
+                If any of this presents a problem, please let us know so we can make alternate arrangements. <i>We will ensure everyone's comfort</i>.
               </p>
             </div>
           </li>
