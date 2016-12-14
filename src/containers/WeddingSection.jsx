@@ -100,6 +100,6 @@ export default React.createClass({
           </li>
         </ul>
       </div>
-      );
+    );
   },
 });

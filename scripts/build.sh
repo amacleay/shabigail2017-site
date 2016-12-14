@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 npm run lint
 rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
 npm run test
