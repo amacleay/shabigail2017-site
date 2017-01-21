@@ -6,7 +6,12 @@ export default React.createClass({
     return (
       <div className="section">
         <div className="lead text-center">
-          <h1>Our Adventure Begins</h1>
+          <div>
+            <img
+              className="our-adventure-img"
+              title="From https://blog.onlinelabels.com/2015/06/17/diy-calligraphy-wedding-signs/; https://blog.onlinelabels.com/wp-content/uploads/2015/06/our-adventure-begins.jpg"
+              src="/images/our-adventure-begins.png" />
+          </div>
 
           <h3>September 22nd through September 24th, 2017</h3>
           <h4>North Woods/Pleasant Valley Camp</h4>

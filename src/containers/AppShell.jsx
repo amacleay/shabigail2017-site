@@ -4,7 +4,13 @@ import MainNavLink from 'components/MainNavLink';
 import { Link } from 'react-router';
 
 const AppShell = ({ children }) => (
-    <div>
+    <div className="outerShell">
+        <div>
+          <img
+            style={{ maxWidth: '100%' }}
+            title="Photo from pexels.com; https://static.pexels.com/photos/139951/pexels-photo-139951.jpeg"
+            src="/images/pexels-photo-139951.jpeg" />
+        </div>
       <nav className="navbar navbar-default">
         <div className="container-fluid">
           <div className="navbar-header">

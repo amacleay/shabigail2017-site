@@ -1,5 +1,45 @@
-.jumbotron {
+.sorta-jumbotron {
   text-align: center;
+  .name-container-container {
+    width: 100%;
+    margin: 0 auto;
+    .name-container {
+      overflow: hidden;
+      white-space: no-wrap;
+      .name {
+        font-size: 4em;
+        color: #566f28;
+        vertical-align: middle;
+        max-width: 100%;
+        padding: 1em;
+        &.heart {
+          max-height: 3em;
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+}
+
+.date {
+  color: #566f28;
+}
+
+.our-adventure-img {
+  max-width: 100%;
+  padding: 2em;
+}
+
+// Possible background images:
+// https://www.pexels.com/photo/abstract-ancient-antique-art-235985/
+// https://www.pexels.com/photo/background-board-carpentry-construction-207253/
+// https://www.pexels.com/photo/wood-texture-background-pine-82256/
+body {
+  background-image: url('/images/woodgrain-bkg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .wedding-faq-qna {

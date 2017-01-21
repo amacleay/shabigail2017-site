@@ -6,6 +6,11 @@ export default React.createClass({
     return (
       <div className="section">
         <h1>About Us</h1>
+        <img
+          style={{ maxWidth: '100%' }}
+          title="From pexels.com; https://www.pexels.com/photo/art-background-bark-brown-236239/"
+          src="/images/beech-heart.jpg"
+        />
         <p>
           We began our journey together in the summer of 2011, both working at <a href="https://yea.org/programs/cadets/cadets">the Cadets</a> drum corps.  We spent a couple of difficult years apart, flying frequently to see one another, but in the summer of 2013, Abigail made the move to Medford, Massachusetts.  We've been causing trouble together in eastern Mass ever since.
         </p>
