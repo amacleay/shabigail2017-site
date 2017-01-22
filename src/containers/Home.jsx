@@ -25,9 +25,9 @@ export default React.createClass({
               src="/images/our-adventure-begins.png" />
           </div>
           <div className="date">
-            <h3>September 22 &ndash; 24, 2017</h3>
-            <h3>North Woods Camp</h3>
-            <h3>Mirror Lake, New Hampshire</h3>
+            <div>September 22 &ndash; 24, 2017</div>
+            <div>North Woods Camp</div>
+            <div>Mirror Lake, New Hampshire</div>
           </div>
         </div>
       </div>

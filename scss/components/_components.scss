@@ -1,13 +1,12 @@
 .sorta-jumbotron {
   text-align: center;
+  max-width: 540px;
+  margin: 0 auto;
   .name-container-container {
-    width: 100%;
     margin: 0 auto;
     .name-container {
-      overflow: hidden;
-      white-space: no-wrap;
       .name {
-        font-size: 4em;
+        font-size: 1.75em;
         color: #566f28;
         vertical-align: middle;
         max-width: 100%;
@@ -22,12 +21,14 @@
 }
 
 .date {
-  color: #566f28;
+  color: #3c5809;
+  font-size: 1.3em;
+  padding-bottom: 1.5em;
 }
 
 .our-adventure-img {
   max-width: 100%;
-  padding: 2em;
+  padding: 0 2em 3em 2em;
 }
 
 // Possible background images:
@@ -36,10 +37,7 @@
 // https://www.pexels.com/photo/wood-texture-background-pine-82256/
 body {
   background-image: url('/images/woodgrain-bkg.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .wedding-faq-qna {
