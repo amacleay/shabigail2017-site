@@ -13,7 +13,7 @@ export default React.createClass({
               src="/images/our-adventure-begins.png" />
           </div>
 
-          <h3>September 22nd through September 24th, 2017</h3>
+          <h2>September 22nd through September 24th, 2017</h2>
           <h4>North Woods/Pleasant Valley Camp</h4>
           <h4>Mirror Lake, New Hampshire</h4>
         </div>
@@ -31,17 +31,7 @@ export default React.createClass({
           For more information about what will be happening and when, take a look at the <Link to="/schedule">Schedule</Link> for the weekend and the <Link to="/activities">Activities</Link> we have planned!
         </p>
 
-        <h3>Accomodations</h3>
-
-        <p>
-          The wedding weekend will be entirely on the property of the North Woods and Pleasant Valley Camps.  These are summer camps for youth, and as such are <i>very rustic</i>.  These are far from five-star accomodations, but we believe that you will enjoy the quiet, relaxed pace of a weekend among friends and family, unplugged, without the distractions of modern convenience.
-        </p>
-
-        <p>
-          Most of us will be sleeping in humble wooden cabins and using shared restrooms.  Not all cabins have electricity, heat, or even wind-proof windows, but some cabins do. <i>Please let us know if you require special accomodations - we will make arrangements to ensure everyone's comfort</i>.
-        </p>
-
-        <h3>FAQ</h3>
+        <h2>FAQ</h2>
 
         <ul>
           <li className="wedding-faq-qna">
@@ -50,13 +40,7 @@ export default React.createClass({
             </div>
             <div className="wedding-faq-a">
               <p>
-                Beds are typical simple summer camp beds with thin mattresses.  You may either bring a sleeping bag of your choosing or request that we provide you with linens.
-              </p>
-              <p>
-                Temperature should not be an issue due to the season, but you should be prepared for the evenings to get a little chilly, even in the cabins.
-              </p>
-              <p>
-                If any of this presents a problem, please let us know so we can make alternate arrangements. <i>We will ensure everyone's comfort</i>.
+                Please see the <Link to="/accommodations">Accommodations</Link> section.
               </p>
             </div>
           </li>
@@ -66,21 +50,7 @@ export default React.createClass({
               Can I camp in a tent or hammock instead of sleeping in a cabin?
             </div>
             <div className="wedding-faq-a">
-              Absolutely!
-            </div>
-          </li>
-
-          <li className="wedding-faq-qna">
-            <div className="wedding-faq-q">
-              What do we do about electricity?
-            </div>
-            <div className="wedding-faq-a">
-              <p>
-                Some cabins and much of the camps facilities do have electricity, so by sharing, you should be able to get your mobile phone charged and plug in your various hair drying equipment on Saturday.
-              </p>
-              <p>
-                If you have a particular requirement for electricity in your cabin for one reason or another, please let us know and we will make arrangements.
-              </p>
+              Absolutely!  You'll still be able to use all of the facilities, so this is a great option for those that want to engage more with the outdoors!
             </div>
           </li>
 

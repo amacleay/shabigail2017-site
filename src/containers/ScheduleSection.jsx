@@ -4,7 +4,7 @@ export default React.createClass({
   render() {
     return (
       <div className="section">
-        <h3>A Weekend Adventure</h3>
+        <h2>A Weekend Adventure</h2>
         <p>
           Our wedding weekend begins on Friday, September 22 and will continue through the early afternoon on Sunday, September 24.  We sincerely hope you will be able to spend the entire time with us celebrating this important occasion!  While there are accomodations nearby, we promise that staying with us in the camp will be more relaxing and more fun than any of the alternatives!
         </p>
@@ -12,7 +12,7 @@ export default React.createClass({
           Please aim to arrive Friday evening so you can be present for the first night's dinner and campfire fun.  There will be ample parking and we will make arrangements to ensure an easy check-in to the camp.  Once on the camp property, please plan on being able to get around the small property without a motor vehicle. <i>Please let us know if this presents a problem - we will make arrangements to ensure everyone's comfort</i>.
         </p>
 
-        <h3>Schedule</h3>
+        <h2>Schedule</h2>
         <p className="text-info">
           <i>Please note that food and drink will be provided throughout the weekend by the capable camp staff.</i>
         </p>

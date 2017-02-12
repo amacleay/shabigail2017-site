@@ -46,7 +46,6 @@ module.exports = {
     }),
     new webpack.NoErrorsPlugin(),
     new ExtractTextPlugin('[name].css'),
-    new webpack.optimize.DedupePlugin(),
     new webpack.optimize.MinChunkSizePlugin({ minChunkSize: 10000 }),
     new webpack.DefinePlugin({
       'process.env': {
