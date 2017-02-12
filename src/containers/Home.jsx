@@ -5,6 +5,7 @@ export default React.createClass({
   render() {
     return (
       <div className="section">
+      <br />
         <div className="sorta-jumbotron">
           <div className="name-container-container">
             <div className="name-container">
