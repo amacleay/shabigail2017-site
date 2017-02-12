@@ -36,6 +36,16 @@ nav.affix {
   padding: 0 2em 3em 2em;
 }
 
+.header-img-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2em;
+  img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
 // Possible background images:
 // https://www.pexels.com/photo/abstract-ancient-antique-art-235985/
 // https://www.pexels.com/photo/background-board-carpentry-construction-207253/
@@ -48,6 +58,9 @@ body {
 .wedding-faq-qna {
   .wedding-faq-q {
     font-style: italic;
+  }
+  .wedding-faq-a {
+    padding-bottom: 1em;
   }
 }
 

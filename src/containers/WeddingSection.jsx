@@ -6,16 +6,15 @@ export default React.createClass({
     return (
       <div className="section">
         <div className="lead text-center">
-          <div>
+          <div className="header-img-container">
             <img
-              className="our-adventure-img"
               title="From https://blog.onlinelabels.com/2015/06/17/diy-calligraphy-wedding-signs/; https://blog.onlinelabels.com/wp-content/uploads/2015/06/our-adventure-begins.jpg"
               src="/images/our-adventure-begins.png" />
           </div>
 
-          <h2>September 22nd through September 24th, 2017</h2>
-          <h4>North Woods/Pleasant Valley Camp</h4>
-          <h4>Mirror Lake, New Hampshire</h4>
+          <h1>September 22nd through September 24th, 2017</h1>
+          <h2>North Woods/Pleasant Valley Camp</h2>
+          <h2>Mirror Lake, New Hampshire</h2>
         </div>
 
 
@@ -39,9 +38,7 @@ export default React.createClass({
               What are sleeping accomodations like?
             </div>
             <div className="wedding-faq-a">
-              <p>
-                Please see the <Link to="/accommodations">Accommodations</Link> section.
-              </p>
+              Please see the <Link to="/accommodations">Accommodations</Link> section.
             </div>
           </li>
 
@@ -59,9 +56,7 @@ export default React.createClass({
               What do we do about food and drink?
             </div>
             <div className="wedding-faq-a">
-              <p>
-                Meals will be provided throughout the weekend: dinner on Friday, three meals Saturday, and brunch on Sunday.  Various alcoholic and non-alcoholic beverages will be available freely at all times, with special service on Saturday evening.
-              </p>
+              Meals will be provided throughout the weekend: dinner on Friday, three meals Saturday, and brunch on Sunday.  Various alcoholic and non-alcoholic beverages will be available freely at all times, with special service on Saturday evening.
             </div>
           </li>
 

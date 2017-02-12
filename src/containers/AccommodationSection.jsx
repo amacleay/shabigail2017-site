@@ -6,6 +6,13 @@ export default React.createClass({
       <div className="section">
         <h1>Accommodations</h1>
 
+        <div className="header-img-container">
+          <img
+            title="Photo credit Abigail May Malloy"
+            src="/images/boys-cabin.jpg"
+          />
+        </div>
+
         <p>
           The wedding weekend will be entirely on the property of the North Woods and Pleasant Valley Camps.  We chose to have the wedding here so that we could have all of our family and friends together in one place.  Once we all arrive, there will be plenty of entertainment for folks of all ages and temperaments, and no one has to worry about driving.
         </p>
@@ -18,6 +25,12 @@ export default React.createClass({
           Most cabins don't have electricity, but there is access to electricity in all of the communal bathhouses which have hot showers as well as restrooms.  Several cabins do have electicity, though, so please let us know if that is something you need, as we should have no trouble accommodating the request.
         </p>
 
+        <div className="header-img-container">
+          <img
+            title="Photo credit Abigail May Malloy"
+            src="/images/bed-no-mattress.jpg"
+          />
+        </div>
       </div>
     );
   },
