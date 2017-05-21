@@ -20,7 +20,7 @@ if (typeof require.ensure !== 'function') {
   });
 }
 /**
- * webpack will bundle seperate files on require.ensure
+ * webpack will bundle separate files on require.ensure
  * and load each file in lazily to reduce initial load.
  */
 export default (
