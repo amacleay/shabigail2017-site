@@ -60,7 +60,13 @@ class AppShell extends React.Component {
                   </li>
                   <li><MainNavLink to="/us">About us</MainNavLink></li>
                   <li><MainNavLink to="/travel">Travel</MainNavLink></li>
-                  <li><MainNavLink to="/accommodations">Accommodations</MainNavLink></li>
+                  <li className="dropdown">
+                    <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staying<span className="caret"></span></a>
+                    <ul className="dropdown-menu">
+                      <li><MainNavLink to="/accommodations">Accommodations</MainNavLink></li>
+                      <li><MainNavLink to="/packing">Packing List</MainNavLink></li>
+                    </ul>
+                  </li>
                   <li><MainNavLink to="/rsvp">RSVP</MainNavLink></li>
                 </ul>
               </div>

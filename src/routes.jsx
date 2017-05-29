@@ -10,6 +10,7 @@ import AccommodationSection from 'containers/AccommodationSection';
 import AboutUsSection from 'containers/AboutUsSection';
 import TravelSection from 'containers/TravelSection';
 import RsvpSection from 'containers/RsvpSection';
+import PackingSection from 'containers/PackingSection';
 
 // Polyfill for server side rendering of application
 if (typeof require.ensure !== 'function') {
@@ -36,6 +37,7 @@ export default (
     <Route path="/location" component={LocationSection} />
     <Route path="/schedule" component={ScheduleSection} />
     <Route path="/accommodations" component={AccommodationSection} />
+    <Route path="/packing" component={PackingSection} />
     <Route path="/us" component={AboutUsSection} />
     <Route path="/travel" component={TravelSection} />
     <Route path="/rsvp" component={RsvpSection} />
