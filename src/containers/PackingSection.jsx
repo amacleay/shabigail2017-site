@@ -111,6 +111,15 @@ export default React.createClass({
             </div>
           </li>
 
+          <li className="wedding-faq-qna">
+            <div className="wedding-faq-q">
+              Additional snacks and drinks
+            </div>
+            <div className="wedding-faq-a">
+              We, together with the camp, will be providing food and drink for the whole weekend, but you should feel free to bring along any snacks or beverages you like.  In particular, we encourage you to bring along additional beer and wine &mdash; we will have a fair amount, but additional supplies will be appreciated!
+            </div>
+          </li>
+
         </ul>
       </div>
     );
