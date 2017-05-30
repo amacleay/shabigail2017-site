@@ -2,16 +2,17 @@ import React from 'react';
 import { Link } from 'react-router';
 
 export default React.createClass({
-  propTypes: {
-    to: React.PropTypes.string,
-    children: React.PropTypes.node,
-  },
-
   render() {
+    const { children, ...other } = this.props;
     return (
-      <Link to={this.props.to} activeClassName="active">
-        {this.props.children}
-      </Link>
+      <li>
+        <Link {...other} activeClassName="active" className="hidden-xs">
+          {this.props.children}
+        </Link>
+        <Link {...other} activeClassName="active" className="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+          {this.props.children}
+        </Link>
+      </li>
     );
   },
 });
