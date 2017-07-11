@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default React.createClass({
   render() {
@@ -31,6 +32,45 @@ export default React.createClass({
             src="/images/bed-no-mattress.jpg"
           />
         </div>
+
+        <h2>Reservation</h2>
+        <p>
+          We sincerely hope you will choose to stay with us at camp.
+        </p>
+
+        <p>
+          The camp charges a per-person fee for lodging and meals for the weekend.  If you are staying with us either or both nights, you will need to <Link to="/rsvp">reserve your cabin</Link>&nbsp; before the event.
+        </p>
+
+        <p>
+          The cost for staying at the camp includes the shared cabin for two nights and all meals for the weekend:
+        </p>
+
+        <ul>
+          <li>
+            Friday night dinner
+          </li>
+          <li>
+            Saturday breakfast
+          </li>
+          <li>
+            Saturday lunch
+          </li>
+          <li>
+            Saturday late-night snack
+          </li>
+          <li>
+            Sunday brunch
+          </li>
+        </ul>
+
+        <p>
+          Individual attendees, invited couples, and families are asked to contribute $90, $160, or $200, respectively, to cover the cost of facilities, food, and beverages for the entire weekend, from Friday through Sunday.  You are encouraged to provide your own bed linens, but if it is more convenient, the camp is able to provide them for $15 per set.
+        </p>
+
+        <p>
+          Please let us know if this reservation fee is a hardship, and we will make accommodations for you.  The most important thing is that we have all of our family and friends there with us, so we will do whatever is necessary to make sure you are there.
+        </p>
       </div>
     );
   },

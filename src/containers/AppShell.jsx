@@ -53,15 +53,21 @@ class AppShell extends React.Component {
                   <li className="dropdown">
                     <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event<span className="caret"></span></a>
                     <ul className="dropdown-menu">
-                      <li><MainNavLink to="/wedding">Our Wedding</MainNavLink></li>
-                      <li><MainNavLink to="/location">Location</MainNavLink></li>
-                      <li><MainNavLink to="/schedule">Schedule</MainNavLink></li>
+                      <MainNavLink to="/wedding">Our Wedding</MainNavLink>
+                      <MainNavLink to="/location">Location</MainNavLink>
+                      <MainNavLink to="/schedule">Schedule</MainNavLink>
                     </ul>
                   </li>
-                  <li><MainNavLink to="/us">About us</MainNavLink></li>
-                  <li><MainNavLink to="/travel">Travel</MainNavLink></li>
-                  <li><MainNavLink to="/accommodations">Accommodations</MainNavLink></li>
-                  <li><MainNavLink to="/rsvp">RSVP</MainNavLink></li>
+                  <MainNavLink to="/us">About us</MainNavLink>
+                  <MainNavLink to="/travel">Travel</MainNavLink>
+                  <li className="dropdown">
+                    <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staying<span className="caret"></span></a>
+                    <ul className="dropdown-menu">
+                      <MainNavLink to="/accommodations">Accommodations</MainNavLink>
+                      <MainNavLink to="/packing">Packing List</MainNavLink>
+                    </ul>
+                  </li>
+                  <MainNavLink to="/rsvp">RSVP</MainNavLink>
                 </ul>
               </div>
               </div>
