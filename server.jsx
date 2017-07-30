@@ -20,11 +20,41 @@ function renderFullPage(html, initialState) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="An92hGCohO35ABPiFTmY82vynP-gGtduzc1xTAIuELY" />
+        <meta name="Description" CONTENT="Wedding website of Abigail Mae Malloy and Andrew MacLeay" />
         <title>Abby and Andrew</title>
         <link type="text/css" rel="stylesheet" href="dist/main.css" />
         <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Event",
+          "name": "Wedding of Abigail Malloy and Andrew MacLeay",
+          "image": "http://shabigail2017.com/images/pexels-photo-139951.jpeg",
+          "location": {
+            "@type": "Place",
+            "name": "North Woods Camp",
+            "address": "144 Governor John Wentworth Hwy, Mirror Lake, NH 03853"
+          },
+          "startDate": "2017-09-22",
+          "endDate": "2017-09-24",
+          "description": "Wedding of Abigail Malloy and Andrew MacLeay",
+          "performer": [
+            {
+              "@type": "Person",
+              "alternateName": "Andrew Kenneth MacLeay",
+              "name": "Andrew MacLeay"
+            },
+            {
+              "@type": "Person",
+              "name": "Abigail Malloy",
+              "alternateName": "Abigail Mae Malloy",
+              "alternateName": "Abby Malloy"
+            }
+          ]
+        }
+        </script>
       </head>
       <body>
         <div id="root-app">${html}</div>
