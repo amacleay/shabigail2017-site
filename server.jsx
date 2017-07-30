@@ -19,6 +19,7 @@ function renderFullPage(html, initialState) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="An92hGCohO35ABPiFTmY82vynP-gGtduzc1xTAIuELY" />
         <title>Abby and Andrew</title>
         <link type="text/css" rel="stylesheet" href="dist/main.css" />
         <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet" />
