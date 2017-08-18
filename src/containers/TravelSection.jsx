@@ -6,16 +6,18 @@ export default React.createClass({
       <div className="section">
         <h1>Travel details</h1>
 
-        <p>
-          For those of you who are traveling from out-of-town, we are so grateful that you are making the trip to Wolfeboro for our wedding celebration.
-        </p>
-
         <div className="jumbotron" style={{ textAlign: 'center' }}>
         <div><b>North Woods and Pleasant Valley YMCA Camps</b></div>
         <h3> 144 Governor John Wentworth Highway</h3>
         <h3> Mirror Lake, NH 03853</h3>
         </div>
 
+        <p>
+          For those of you who are traveling from out-of-town, we are so grateful that you are making the trip to Wolfeboro for our wedding celebration.
+        </p>
+
+
+        <div className="alert alert-warning" role="alert">If you want to carpool up from Boston or the airport, please join <a target='_blank' href="https://www.facebook.com/groups/410213686041899/">this facebook group</a> and find another person to carpool with!</div>
 
         <p>
           <em>Please note</em> that Google Maps and GPS systems do not recognize the rural location with accuracy; the camp staff has found that many people have gotten lost using these methods. They recommend using GPS or Google Maps to get you to Wolfeboro, NH, and then following the below directions to the Camp.
