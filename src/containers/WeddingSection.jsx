@@ -53,6 +53,15 @@ export default React.createClass({
 
           <li className="wedding-faq-qna">
             <div className="wedding-faq-q">
+              What is the expected attire?
+            </div>
+            <div className="wedding-faq-a">
+              For the ceremony and reception, <a href="https://www.reference.com/beauty-fashion/dressy-casual-attire-9854fb201ebfd2d5" target="_blank">"dressy casual"</a>.  For the rest of the weekend, just make yourself comfortable!
+            </div>
+          </li>
+
+          <li className="wedding-faq-qna">
+            <div className="wedding-faq-q">
               What do we do about food and drink?
             </div>
             <div className="wedding-faq-a">
