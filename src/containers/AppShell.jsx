@@ -56,6 +56,7 @@ class AppShell extends React.Component {
                       <MainNavLink to="/wedding">Our Wedding</MainNavLink>
                       <MainNavLink to="/location">Location</MainNavLink>
                       <MainNavLink to="/schedule">Schedule</MainNavLink>
+                      <MainNavLink to="/registry">Registry</MainNavLink>
                     </ul>
                   </li>
                   <MainNavLink to="/us">About us</MainNavLink>
