@@ -22,15 +22,15 @@ export default React.createClass({
 
           <ul className="schedule-event-list">
             <li className="schedule-event-item">
-              <div className="schedule-event-time">4-6 pm</div>
-              <div className="schedule-event-name">Guests arrive</div>
+              <div className="schedule-event-time">4 &mdash; 7 pm</div>
+              <div className="schedule-event-name">Guests arrive and rehearsal</div>
             </li>
             <li className="schedule-event-item">
-              <div className="schedule-event-time">6 pm</div>
+              <div className="schedule-event-time">7 pm</div>
               <div className="schedule-event-name">Barbecue dinner</div>
             </li>
             <li className="schedule-event-item">
-              <div className="schedule-event-time">8 pm</div>
+              <div className="schedule-event-time">9 pm</div>
               <div className="schedule-event-name">Campfire and s'mores</div>
             </li>
           </ul>
@@ -45,24 +45,36 @@ export default React.createClass({
               <div className="schedule-event-name">Breakfast</div>
             </li>
             <li className="schedule-event-item">
-              <div className="schedule-event-time">9 am</div>
-              <div className="schedule-event-name">Activity time</div>
+              <div className="schedule-event-time">10 am</div>
+              <div className="schedule-event-name">Bride v. groom kickball match</div>
+            </li>
+
+            <li className="schedule-event-item">
+              &nbsp;
             </li>
             <li className="schedule-event-item">
-              <div className="schedule-event-time">12 pm</div>
+              <div className="schedule-event-time"><b>11 am &mdash; 5 pm</b></div>
+              <div className="schedule-event-name"><b>Open activity time</b></div>
+            </li>
+            <li className="schedule-event-item">
+              <div className="schedule-event-time">11 am &mdash; 3 pm</div>
+              <div className="schedule-event-name">Swimming and kayaking open for guests</div>
+            </li>
+            <li className="schedule-event-item">
+              <div className="schedule-event-time">12 pm &mdash; 1 pm</div>
               <div className="schedule-event-name">Lunch</div>
             </li>
             <li className="schedule-event-item">
-              <div className="schedule-event-time">1 pm</div>
-              <div className="schedule-event-name">Activity time</div>
+              &nbsp;
             </li>
+
             <li className="schedule-event-item">
               <div className="schedule-event-time">5:30 pm</div>
               <div className="schedule-event-name">Wedding ceremony</div>
             </li>
             <li className="schedule-event-item">
               <div className="schedule-event-time">6 pm</div>
-              <div className="schedule-event-name">Cocktail hour</div>
+              <div className="schedule-event-name">Group photo and cocktail hour</div>
             </li>
             <li className="schedule-event-item">
               <div className="schedule-event-time">7 pm</div>
@@ -76,8 +88,8 @@ export default React.createClass({
 
           <ul className="schedule-event-list">
             <li className="schedule-event-item">
-              <div className="schedule-event-time">8-11 am</div>
-              <div className="schedule-event-name">Brunch</div>
+              <div className="schedule-event-time">8 &mdash; 11 am</div>
+              <div className="schedule-event-name">Brunch and farewells</div>
             </li>
           </ul>
         </div>
