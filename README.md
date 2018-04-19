@@ -21,3 +21,13 @@ Created via
 npm install yo generator-universal-react-and-redux
 node_modules/.bin/yo universal-react-and-redux
 ```
+
+# Archive
+Archived at http://shabigail2017-archive.s3-website-us-east-1.amazonaws.com
+To build archived (static) version and push it:
+
+```sh
+yarn build
+cd build
+aws-vault exec personal -- aws s3 sync . s3://shabigail2017-archive
+```
